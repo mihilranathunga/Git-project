@@ -6,11 +6,24 @@
  * @author Mihil Ranathunga
  *
  */
-public class gui {
+public class Gui {
 
-	/**
-	 * @param args
-	 */
+//	parameter arguments
+	
+	String name = "mihil's project";
+	
+	
+	public void sucks(){
+		
+		System.out.println(name+" sucks!");
+	}
+	public void rocks(){
+		System.out.println(name+" rocks!");
+	}
+	public void donmatter() {
+		
+		System.out.println(name + " Doesn't matter");
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
